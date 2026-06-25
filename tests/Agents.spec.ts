@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test('Date picker', async ({ page }) => {
 
 
-    await page.goto("https://www.google.com/")
+    await page.goto("https://www.saucedemo.com/")
 
     await page.waitForTimeout(5000);
     await page.locator('#user-name').fill("standard_user");
